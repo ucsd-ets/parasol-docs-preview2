@@ -1,9 +1,9 @@
 # Standard Images, Tags, and Pinning
 
 The standard images are the software environments IT Services maintains for
-PARASOL (formerly DSMLP) and Datahub, and most courses and projects run on one of them. Find out
-which image a session runs, what it contains, and how a course can pin its
-workspace to one version of an image for a term.
+PARASOL (formerly DSMLP) and Datahub, and most courses and projects run on one
+of them. Find out which image a session runs, what it contains, and how a course
+can pin its workspace to one version of an image for a term.
 
 ## Standard Images
 

@@ -1,11 +1,12 @@
-# How PARASOL Works {#dsmlp-and-datahub-overview}
+# How PARASOL Works
 
-Start here if you are new to PARASOL (formerly DSMLP) and its Datahub web interface. PARASOL is UC
-San Diego's Platform for Applied Research, Analytics, Science and Open Learning. Find out what the service
-offers every course and lab, the constraints that apply to all work on it, and
-the page to begin with for your role.
+Start here if you are new to PARASOL (formerly DSMLP) and its Datahub web
+interface. PARASOL is UC San Diego's Platform for Applied Research, Analytics,
+Science and Open Learning. Find out what the service offers every course and
+lab, the constraints that apply to all work on it, and the page to begin with
+for your role.
 
-## PARASOL and Datahub {#dsmlp-datahub-and-the-research-cluster}
+## PARASOL and Datahub
 
 PARASOL and Datahub provide students, instructors and researchers with Jupyter,
 RStudio and other computational resources, for scheduled classes, formal
@@ -188,9 +189,11 @@ sets out the terms of 1:1 Consultation.
   updates or security patches. Quarterly maintenance ends every running job.
   [Scheduled Maintenance](reference/policy.md#scheduled-maintenance) gives the
   schedule.
-- PARASOL and Datahub are not to be used to host externally available services or
-  applications except as required for coursework or projects. See
-  [Hosting Externally Available Services](reference/policy.md#hosting-externally-available-services)
-  and [Availability and Reliability](reference/policy.md#availability-and-reliability).
-- The campus-wide IT policy on acceptable use applies to PARASOL and Datahub. See
-  [Appropriate Use](reference/policy.md#appropriate-use).
+- PARASOL and Datahub are not to be used to host externally available services
+  or applications except as required for coursework or projects. See [Hosting
+  Externally Available
+  Services](reference/policy.md#hosting-externally-available-services) and
+  [Availability and
+  Reliability](reference/policy.md#availability-and-reliability).
+- The campus-wide IT policy on acceptable use applies to PARASOL and Datahub.
+  See [Appropriate Use](reference/policy.md#appropriate-use).

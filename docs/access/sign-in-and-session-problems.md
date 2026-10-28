@@ -25,12 +25,12 @@ provisioning matter, not an access fault.
 
 Rosters are loaded into workspaces one business day before the start of the
 term, and a TSS change, such as an add, a drop, or a section change, is
-reflected in PARASOL (formerly DSMLP) and Datahub by 10am the day following the change. A course
-that is not listed before those times has not been loaded yet. Report a course
-that is still missing after that time to
-[parasol@ucsd.edu](mailto:parasol@ucsd.edu).
-[Students Enrolled in a Course](when-access-starts-and-ends.md#students-enrolled-in-a-course)
-describes roster provisioning.
+reflected in PARASOL (formerly DSMLP) and Datahub by 10am the day following the
+change. A course that is not listed before those times has not been loaded yet.
+Report a course that is still missing after that time to
+[parasol@ucsd.edu](mailto:parasol@ucsd.edu). [Students Enrolled in a
+Course](when-access-starts-and-ends.md#students-enrolled-in-a-course) describes
+roster provisioning.
 
 ### Roster Checks by Course Staff
 

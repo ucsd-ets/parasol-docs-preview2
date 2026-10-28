@@ -1,4 +1,4 @@
-/* Site-authored styles for dsmlp-docs.ucsd.edu.
+/* Site-authored styles for parasol-docs.ucsd.edu.
  *
  * EVERY rule in here is scoped under the canvas selector, main#main-content.
  * That scoping is load-bearing, not cosmetic: the Decorator shell and the
@@ -363,13 +363,12 @@ main#main-content .main-content-nav .docs-toc {
 	margin-bottom: 24px;
 }
 
-/* ---- Site-wide draft banner ---------------------------------------- *
- * Replaces the per-page "Draft for review" notes the importer strips.
- * UCSD gold rather than Bootstrap's contextual yellow, which Decorator
- * does not restyle.
+/* ---- Site-wide notice ---------------------------------------------- *
+ * extra.site_notice, on every page. UCSD gold rather than Bootstrap's
+ * contextual yellow, which Decorator does not restyle.
  */
 
-main#main-content .docs-draft-banner {
+main#main-content .docs-site-notice {
 	border: 1px solid var(--ucsd-yellow);
 	border-left: 5px solid var(--ucsd-yellow);
 	background: #fffdf2;
@@ -377,11 +376,11 @@ main#main-content .docs-draft-banner {
 	margin: 0 15px 22px;
 }
 
-main#main-content .docs-draft-banner > :last-child {
+main#main-content .docs-site-notice > :last-child {
 	margin-bottom: 0;
 }
 
-main#main-content .docs-draft-banner__label {
+main#main-content .docs-site-notice__label {
 	font-weight: 700;
 	text-transform: uppercase;
 	letter-spacing: .06em;
@@ -392,8 +391,8 @@ main#main-content .docs-draft-banner__label {
 
 /* ---- Preview-site notice -------------------------------------------- *
  * Only ever rendered on the preview site; extra.preview_banner is empty in
- * the published configuration. Solid dark blue rather than the draft
- * banner's yellow outline, because this one has to be unmissable: it is
+ * the published configuration. Solid dark blue rather than the site
+ * notice's yellow outline, because this one has to be unmissable: it is
  * telling the reader they are not on the published site.
  */
 

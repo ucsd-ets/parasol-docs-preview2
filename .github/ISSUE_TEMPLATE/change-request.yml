@@ -8,14 +8,14 @@ body:
       value: |
         Thanks — gaps are harder for us to spot than errors, so this is useful.
         For help with **your own account, course or job**, email
-        <datahub@ucsd.edu> instead.
+        <parasol@ucsd.edu> instead.
 
   - type: input
     id: page
     attributes:
       label: Which page, if any?
       description: Leave blank if the topic has no page at all.
-      placeholder: https://dsmlp-docs.ucsd.edu/running-jobs/checkpointing/
+      placeholder: https://parasol-docs.ucsd.edu/running-jobs/checkpointing/
     validations:
       required: false
 

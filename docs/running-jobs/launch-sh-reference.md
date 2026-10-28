@@ -183,7 +183,7 @@ See also: [Belonging to Several Workspaces](../workspaces-and-storage/what-a-wor
 | `-F <mntspec>` | NFS-mount additional filesystems, as `/mnt:server_fqdn:/path` | |
 | `-x` | Patch a writeable directory onto the conda package cache | |
 | `-n <node>` | Run on a specific node, by number or hostname. Use it only for a session launched without a booking | `-n 30` |
-| `-N <name>` | Give the pod a chosen name | `-N vscode-dsmlp` |
+| `-N <name>` | Give the pod a chosen name | `-N vscode-parasol` |
 | `-t <toleration>` | Apply a `NoSchedule` toleration. Repeatable | |
 | `-A <key=value>` | Apply a pod annotation. Repeatable | |
 

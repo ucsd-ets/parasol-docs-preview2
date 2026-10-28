@@ -1,10 +1,11 @@
 # When Access Starts & Ends
 
-Access to PARASOL (formerly DSMLP) and Datahub is granted through a workspace rather than to an
-individual, and the date it opens depends on the kind of workspace
-([What a Workspace Is and What It Controls](../workspaces-and-storage/what-a-workspace-is.md)).
-After a course ends, access ends first, the course environment is purged on a
-later date, and instructor and course-wide files are archived only on request.
+Access to PARASOL (formerly DSMLP) and Datahub is granted through a workspace
+rather than to an individual, and the date it opens depends on the kind of
+workspace ([What a Workspace Is and What It
+Controls](../workspaces-and-storage/what-a-workspace-is.md)). After a course
+ends, access ends first, the course environment is purged on a later date, and
+instructor and course-wide files are archived only on request.
 
 ## Students Enrolled in a Course
 

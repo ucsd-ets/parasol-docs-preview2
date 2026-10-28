@@ -8,14 +8,14 @@ body:
       value: |
         Thanks for reporting this. If you need help with **your own account,
         course or job** rather than with the documentation, email
-        <datahub@ucsd.edu> instead — we cannot resolve account problems here.
+        <parasol@ucsd.edu> instead — we cannot resolve account problems here.
 
   - type: input
     id: page
     attributes:
       label: Which page?
       description: Paste the URL, or the page title if you are not sure.
-      placeholder: https://dsmlp-docs.ucsd.edu/gpu-access/reservations/
+      placeholder: https://parasol-docs.ucsd.edu/gpu-access/reservations/
     validations:
       required: true
 

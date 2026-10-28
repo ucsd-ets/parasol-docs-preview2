@@ -1,8 +1,8 @@
 # GPU Access
 
-From Fall 2026, a reservation system manages GPU access on PARASOL (formerly DSMLP). If your
-course, project, or research needs a GPU, start here to choose a GPU class,
-reserve time, and plan the Service Units your sessions spend.
+From Fall 2026, a reservation system manages GPU access on PARASOL (formerly
+DSMLP). If your course, project, or research needs a GPU, start here to choose a
+GPU class, reserve time, and plan the Service Units your sessions spend.
 
 | Page | Covers |
 |---|---|

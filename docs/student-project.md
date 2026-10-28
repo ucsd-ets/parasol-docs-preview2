@@ -1,10 +1,10 @@
 # Projects & Independent Study
 
-This page is for work on PARASOL (formerly DSMLP) and Datahub outside a scheduled course. It
-assumes familiarity with a shell. Access through an enrolled course is separate
-and follows different rules. See
-[Using Datahub in a Course](student-in-a-course.md) and
-[Working from the Command Line](working-from-the-command-line.md).
+This page is for work on PARASOL (formerly DSMLP) and Datahub outside a
+scheduled course. It assumes familiarity with a shell. Access through an
+enrolled course is separate and follows different rules. See [Using Datahub in a
+Course](student-in-a-course.md) and [Working from the Command
+Line](working-from-the-command-line.md).
 
 ## Eligibility & Requesting Access
 
@@ -25,11 +25,10 @@ The programs in
 [Self-Supporting Programs](reference/policy.md#self-supporting-programs) are
 eligible, subject to the cost recovery set out there.
 
-For non-students, and for research that is not for credit,
-[Research IT](https://research-it.ucsd.edu/computing/index.html) can help
-connect faculty, staff, and student researchers with compute platforms.
-[Research on PARASOL](individual-researcher.md) covers individual research on the
-cluster.
+For non-students, and for research that is not for credit, [Research
+IT](https://research-it.ucsd.edu/computing/index.html) can help connect faculty,
+staff, and student researchers with compute platforms. [Research on
+PARASOL](individual-researcher.md) covers individual research on the cluster.
 
 ### Submitting a Request
 

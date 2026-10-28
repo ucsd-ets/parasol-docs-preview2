@@ -1,10 +1,10 @@
 # Open Learning
 
 Open Learning gives students in eligible majors and programs a workspace on
-PARASOL (formerly DSMLP) and Datahub from Winter 2027, for coursework and exploration outside a
-course workspace or a sponsored project. You are added from your major or
-program, with nothing to request. [Eligible Programs](#eligible-programs) lists
-the programs.
+PARASOL (formerly DSMLP) and Datahub from Winter 2027, for coursework and
+exploration outside a course workspace or a sponsored project. You are added
+from your major or program, with nothing to request. [Eligible
+Programs](#eligible-programs) lists the programs.
 
 | At a glance | |
 |---|---|

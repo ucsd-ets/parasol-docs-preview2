@@ -1,9 +1,9 @@
 # Setting Up a Research Lab
 
-This page is for faculty arranging PARASOL (formerly DSMLP) and Datahub access for a research
-group. [Research on PARASOL](individual-researcher.md) covers researchers working
-on their own. [Teaching with PARASOL and Datahub](instructor-or-ta.md) covers
-course setup.
+This page is for faculty arranging PARASOL (formerly DSMLP) and Datahub access
+for a research group. [Research on PARASOL](individual-researcher.md) covers
+researchers working on their own. [Teaching with PARASOL and
+Datahub](instructor-or-ta.md) covers course setup.
 
 ## Platform Suitability
 

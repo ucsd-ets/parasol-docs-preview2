@@ -1,4 +1,4 @@
-# Research on PARASOL {#research-on-dsmlp}
+# Research on PARASOL
 
 This page is for researchers working without a lab workspace: graduate
 students, postdocs, undergraduate researchers, staff researchers, and faculty
@@ -10,9 +10,9 @@ coursework and capstones.
 
 ## What the Platform Is Suited To
 
-Datahub sessions and research work run on the same cluster, PARASOL (formerly DSMLP). Older pages
-and articles may call it the Research Cluster, and the work does not change with
-the name an article uses.
+Datahub sessions and research work run on the same cluster, PARASOL (formerly
+DSMLP). Older pages and articles may call it the Research Cluster, and the work
+does not change with the name an article uses.
 
 ### Suitable Work
 
@@ -29,7 +29,7 @@ compatibility layer rather than a scheduler. See
 [Slurm Compatibility Wrappers](reference/coming-from-hpc.md#slurm-compatibility-wrappers).
 [Coming from HPC](reference/coming-from-hpc.md) covers HPC vocabulary and Slurm
 compatibility. Routing for work that requires
-these features is in [Beyond PARASOL](#beyond-dsmlp).
+these features is in [Beyond PARASOL](#beyond-parasol).
 
 ## Obtaining Access
 
@@ -251,9 +251,9 @@ Some data available on the cluster carries usage terms. See
 ### Data Classification
 
 P4 data, such as clinical records and export-controlled information, must not be
-used on PARASOL. P3 data, which is legally or contractually protected information,
-may be permitted after review.
-[Data Classification](reference/policy.md#data-classification) describes the
+used on PARASOL. P3 data, which is legally or contractually protected
+information, may be permitted after review. [Data
+Classification](reference/policy.md#data-classification) describes the
 classification levels and the review.
 
 ## Publishing & Reproducibility
@@ -288,7 +288,7 @@ Urgent or broadly scoped problems may be escalated through the
 affected. See [Response Targets](reference/getting-help.md#response-targets).
 [Getting Help](reference/getting-help.md) describes support routing in full.
 
-## Beyond PARASOL {#beyond-dsmlp}
+## Beyond PARASOL
 
 Work requiring tightly coupled multi-node computation, MPI, a batch scheduler, or
 capacity at a scale the cluster does not carry belongs on another platform, such

@@ -1,8 +1,8 @@
-# Teaching with PARASOL and Datahub {#teaching-with-dsmlp-and-datahub}
+# Teaching with PARASOL and Datahub
 
-This page is for instructors and TAs teaching a course on PARASOL (formerly DSMLP) and Datahub.
-Most course tasks need only a browser; course-specific customization needs a
-shell.
+This page is for instructors and TAs teaching a course on PARASOL (formerly
+DSMLP) and Datahub. Most course tasks need only a browser; course-specific
+customization needs a shell.
 
 ## Course Timeline
 

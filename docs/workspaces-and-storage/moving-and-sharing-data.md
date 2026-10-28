@@ -306,9 +306,10 @@ file types.
 
 ## Hosting and Data Classification Restrictions
 
-PARASOL (formerly DSMLP) and Datahub are not a hosting platform. They should not be used to run
-externally available services or applications except as required for coursework
-or projects. Sharing data is supported; running a public service is not.
+PARASOL (formerly DSMLP) and Datahub are not a hosting platform. They should not
+be used to run externally available services or applications except as required
+for coursework or projects. Sharing data is supported; running a public service
+is not.
 
 Sharing data requires a classification decision before any technical step.
 Licensed data, protected data, and data under a data use agreement do not become

@@ -5,7 +5,7 @@ formerly called the Research Cluster. If you used the platform or Datahub
 before, you do not need to do anything: your account, your files and your
 commands work as before.
 
-<!-- transform: off -->
+<!-- former names: begin -->
 
 | At a glance | |
 |---|---|
@@ -64,4 +64,4 @@ addresses keep working.
 The [Glossary](glossary.md) defines PARASOL and Datahub, and lists DSMLP and
 the Research Cluster under [Former Names](glossary.md#former-names).
 
-<!-- transform: on -->
+<!-- former names: end -->

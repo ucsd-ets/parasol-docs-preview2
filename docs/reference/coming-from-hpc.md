@@ -1,8 +1,9 @@
 # Coming from HPC
 
 If you have worked on a high-performance computing (HPC) cluster that runs
-Slurm, find the PARASOL (formerly DSMLP) equivalent of what you know, where PARASOL behaves
-differently, and whether your existing submission scripts run unchanged.
+Slurm, find the PARASOL (formerly DSMLP) equivalent of what you know, where
+PARASOL behaves differently, and whether your existing submission scripts run
+unchanged.
 
 ## HPC Terms and Their Equivalents
 

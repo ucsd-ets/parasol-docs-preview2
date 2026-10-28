@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for wanting to improve the DSMLP documentation.
+Thanks for wanting to improve the PARASOL documentation.
 
 ## How changes get made
 
@@ -17,7 +17,7 @@ That means:
   to the live page. Nothing is lost — it just takes one extra step on our end.
 - **Direct commits to this repository are overwritten** on the next publish.
 
-If you maintain DSMLP documentation and need write access to the source, ask in
+If you maintain PARASOL documentation and need write access to the source, ask in
 an issue and we will sort it out.
 
 ## What makes a good issue
@@ -51,10 +51,3 @@ A few conventions the pages follow. Match them if you are proposing wording:
   second.
 - **Don't hand-maintain a table of contents.** `##` and `###` headings are
   collected into the sidebar automatically.
-
-## A note on the draft banner
-
-Pages currently carry a site-wide draft notice. The content is under active
-review and some pages describe behavior that has not yet been verified against
-a primary source. If a page contradicts what the platform actually does, that is
-exactly the kind of issue worth filing.

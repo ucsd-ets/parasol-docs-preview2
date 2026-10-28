@@ -100,9 +100,9 @@ be done with data the campus has already acquired.
 
 P3 and P4 are protection levels in the University's data classification. P4
 data, such as clinical records or export-controlled material, is prohibited on
-PARASOL (formerly DSMLP) and Datahub without review or exception, and P3 data may be permitted
-after review. See
-[Data Classification](../reference/policy.md#data-classification).
+PARASOL (formerly DSMLP) and Datahub without review or exception, and P3 data
+may be permitted after review. See [Data
+Classification](../reference/policy.md#data-classification).
 
 Where either level may apply, raise the dataset before any of it reaches the
 cluster. For instruction and coursework, email
