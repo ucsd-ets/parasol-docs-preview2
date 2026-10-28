@@ -1,6 +1,6 @@
-# Teaching with Datahub and PARASOL {#teaching-with-datahub-and-dsmlp}
+# Teaching with PARASOL and Datahub {#teaching-with-dsmlp-and-datahub}
 
-This page is for instructors and TAs teaching a course on Datahub and PARASOL (formerly DSMLP).
+This page is for instructors and TAs teaching a course on PARASOL (formerly DSMLP) and Datahub.
 Most course tasks need only a browser; course-specific customization needs a
 shell.
 
@@ -8,7 +8,7 @@ shell.
 
 ### Requesting a Course
 
-Request Datahub and PARASOL access for a course through the
+Request PARASOL and Datahub access for a course through the
 [Specialized Instructional Computing Course Request](https://support.ucsd.edu/its?id=sc_cat_item_guide&sys_id=dc1afcd51b152910484f968f034bcb8b&sysparm_category=90e152651b19a910484f968f034bcbf0)
 form. Instructors, TAs, and departmental staff can submit it. Submission opens
 in the 2nd week of the previous term. For Summer and Fall classes, submission
@@ -131,7 +131,7 @@ gives the procedure.
 
 Highly complex use cases, such as clustered services like Spark or Postgres,
 or software not derived from the standard images, are in regular use on
-Datahub and PARASOL. They need substantially more time and
+PARASOL and Datahub. They need substantially more time and
 expertise from the instructor or TPOC than ordinary customizations. See
 [Complex Customizations & Experimental Features](#complex-customizations--experimental-features).
 
@@ -145,7 +145,7 @@ features. ITS technical staff support customization through
 The instructor or TPOC needs basic familiarity with Unix commands such as
 `ssh`, `mkdir`, and `chmod`, and proficiency with the intended core platform
 (for example, Python or R) in a desktop Mac or PC setting. ITS gives guidance
-and basic training on the Datahub and PARASOL environment and on system-specific
+and basic training on the PARASOL and Datahub environment and on system-specific
 procedures.
 
 ### Pinning an Image
@@ -157,8 +157,8 @@ update partway through a project does not move your students. See
 ## Support & Technical Consultation
 
 IT Services gives priority support for standard features and functionality
-through the [Datahub & PARASOL Documentation](README.md), the IT Service Desk,
-and 1:1 Consultation. Send questions and feedback about Datahub and PARASOL to
+through the [PARASOL & Datahub Documentation](README.md), the IT Service Desk,
+and 1:1 Consultation. Send questions and feedback about PARASOL and Datahub to
 [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 ### IT Service Desk
@@ -206,7 +206,7 @@ Consultation per term. Availability is reduced in the final weeks of each term.
 
 ## Complex Customizations & Experimental Features
 
-The compute clusters underlying Datahub and PARASOL can host complex or novel
+The compute clusters underlying PARASOL and Datahub can host complex or novel
 customizations that fall outside the normal bounds of ITS support. A
 customization falls outside those bounds when, for example, installing or
 integrating it may exercise untested or seldom-used features of Kubernetes,
@@ -343,7 +343,7 @@ for work that requires a terminal.
 Under the
 [University of California classification levels](https://security.ucop.edu/policies/institutional-information-and-it-resource-classification.html),
 highly sensitive P4 data, such as clinical records or export-controlled
-information, is prohibited on Datahub and PARASOL. Legally or contractually
+information, is prohibited on PARASOL and Datahub. Legally or contractually
 protected P3 data may be permitted after review. See
 [Data Classification](reference/policy.md#data-classification).
 

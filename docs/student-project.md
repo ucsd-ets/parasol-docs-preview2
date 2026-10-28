@@ -1,6 +1,6 @@
 # Projects & Independent Study
 
-This page is for work on Datahub and PARASOL (formerly DSMLP) outside a scheduled course. It
+This page is for work on PARASOL (formerly DSMLP) and Datahub outside a scheduled course. It
 assumes familiarity with a shell. Access through an enrolled course is separate
 and follows different rules. See
 [Using Datahub in a Course](student-in-a-course.md) and

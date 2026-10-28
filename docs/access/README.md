@@ -1,6 +1,6 @@
 # Access
 
-Datahub and PARASOL (formerly DSMLP) have three access routes: the browser, the shell, and a
+PARASOL (formerly DSMLP) and Datahub have three access routes: the browser, the shell, and a
 remote editor. Start here to choose a route, to fix a sign-in or startup
 failure, or to find out when your access starts and ends. Moving between the
 routes has no eligibility requirement and requires no request.

@@ -51,8 +51,8 @@ PARASOL:
 
 | DSMLP documentation | PARASOL page |
 |---|---|
-| Datahub and DSMLP Overview | [How PARASOL Works](../overview.md) |
-| Teaching with Datahub and DSMLP | [Teaching with Datahub and PARASOL](../instructor-or-ta.md) |
+| DSMLP and Datahub Overview | [How PARASOL Works](../overview.md) |
+| Teaching with DSMLP and Datahub | [Teaching with PARASOL and Datahub](../instructor-or-ta.md) |
 | Research on DSMLP | [Research on PARASOL](../individual-researcher.md) |
 
 When the DSMLP documentation site is retired, each of its addresses will

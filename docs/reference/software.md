@@ -1,6 +1,6 @@
 # Software
 
-Find out how to run RStudio, MATLAB, and Stata on Datahub and PARASOL (formerly DSMLP), how
+Find out how to run RStudio, MATLAB, and Stata on PARASOL (formerly DSMLP) and Datahub, how
 licensed software gets installed, and which software you can install yourself.
 The standard images cover most courses and projects and receive priority
 support. See

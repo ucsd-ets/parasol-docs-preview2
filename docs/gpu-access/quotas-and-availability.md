@@ -31,7 +31,7 @@ afterward. A lab's share can be raised the same way for a conference deadline.
 A dated change requires the dates in advance. For courses, the quarterly survey
 asks instructors and TAs about assignment scope, GPU sizes, and deadlines. The
 answers allow a quota to be raised for week 9 before the surge begins.
-[Teaching with Datahub and PARASOL](../instructor-or-ta.md) covers course GPU
+[Teaching with PARASOL and Datahub](../instructor-or-ta.md) covers course GPU
 planning.
 For research workspaces, include the date in the request; see
 [Requesting a Quota Increase](#requesting-a-quota-increase).

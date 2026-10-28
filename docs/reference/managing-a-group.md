@@ -238,7 +238,7 @@ administrative and is requested by ticket.
 A report shows contention but does not resolve it. A course whose quota never
 fits its roster has a provisioning problem rather than a scheduling one. Report
 such a course to ITS during the term rather than after it.
-[Teaching with Datahub and PARASOL](../instructor-or-ta.md) covers provisioning
+[Teaching with PARASOL and Datahub](../instructor-or-ta.md) covers provisioning
 for courses. [Setting Up a Research Lab](../faculty-research-lab.md) covers
 provisioning for labs.
 

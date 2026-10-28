@@ -1,6 +1,6 @@
 # Glossary
 
-Look up a term used in the Datahub and PARASOL (formerly DSMLP) documentation. Entries are in
+Look up a term used in the PARASOL (formerly DSMLP) and Datahub documentation. Entries are in
 alphabetical order, and each links to the page that covers the term in full.
 
 ## A-C

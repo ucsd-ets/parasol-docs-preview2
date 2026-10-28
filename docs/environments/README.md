@@ -1,6 +1,6 @@
 # Environments
 
-Every Datahub and PARASOL (formerly DSMLP) session runs from a container image, which sets the
+Every PARASOL (formerly DSMLP) and Datahub session runs from a container image, which sets the
 software the session starts with. Start here to find out what the standard
 images contain, to add packages to your own environment, or to build a custom
 image when the software you need installs into the operating system.

@@ -1,8 +1,8 @@
-site_name: Datahub & DSMLP Documentation
+site_name: DSMLP & Datahub Documentation
 site_url: https://dsmlp-docs.ucsd.edu/
 site_description: >-
-  Documentation for UC San Diego's Datahub and Data Science & Machine Learning
-  Platform (DSMLP).
+  Documentation for DSMLP and its Datahub web interface. DSMLP is UC San Diego's
+  Data Science & Machine Learning Platform.
 docs_dir: docs
 site_dir: _site
 

@@ -1,6 +1,6 @@
 # Getting Help
 
-Find out whom to contact about Datahub or PARASOL (formerly DSMLP), what to include in a ticket,
+Find out whom to contact about PARASOL (formerly DSMLP) or Datahub, what to include in a ticket,
 and how to ask for a change you cannot make yourself, such as more disk space
 or a larger GPU class. If you are a student in a course, start with your
 instructor or TA.
@@ -26,7 +26,7 @@ instructor tier for that work and use the contacts in
 | Question | Contact |
 |---|---|
 | A course a student is enrolled in | The instructor or TA, first |
-| Datahub or PARASOL itself: access, images, launching, quotas, GPUs, and research work | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
+| PARASOL or Datahub itself: access, images, launching, quotas, GPUs, and research work | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | Universal Scale Storage, or research work, which Research IT also answers | Research IT, at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | An outage, or anything to be tracked as a ticket | The [ITS Service Desk](https://support.ucsd.edu/) |
 | Which platform is appropriate for a research project | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
