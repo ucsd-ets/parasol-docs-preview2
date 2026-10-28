@@ -1,0 +1,106 @@
+# The PARASOL site's MkDocs config. Ships as mkdocs.yml; the shared config
+# ships beside it as mkdocs.base.yml, and this inherits everything from it.
+# Set here only what differs from DSMLP.
+#
+# Mappings merge key by key, so `extra` below adds to the inherited one.
+# Lists -- nav, plugins, markdown_extensions -- REPLACE the inherited value
+# wholesale: override one and you own all of it.
+INHERIT: mkdocs.base.yml
+
+site_name: Datahub & PARASOL Documentation
+site_description: >-
+  Documentation for UC San Diego's Datahub and Platform for Applied Research,
+  Analytics, Science and Open Learning (PARASOL, formerly DSMLP).
+
+# This site's own address: every page's canonical URL and the sitemap. PARASOL
+# will be served at https://parasol.ucsd.edu/; until that host exists, the
+# preview's is the canonical one. When parasol.ucsd.edu goes live, change it
+# here and remove extra.published_url below.
+site_url: 'https://parasol-docs-preview2.ucsd.edu/'
+
+extra:
+  site_name_short: PARASOL
+
+  # No site-wide draft notice (theme/partials/draft-banner.html). The shared
+  # config's notice, which flags the Fall 2026 reservation figures as
+  # unpublished, stays on DSMLP; empty here, the partial renders nothing.
+  draft_banner: ""
+
+  # Where the preview banner's "Go to the published documentation" link goes
+  # (theme/partials/preview-banner.html). It falls back to site_url, which for
+  # now is the preview itself, so it names the documentation that is live
+  # today. Remove it when site_url becomes https://parasol.ucsd.edu/.
+  published_url: https://dsmlp-docs.ucsd.edu/
+
+  # The preview-site placeholder, as in the shared config. The preview
+  # promotion substitutes into the staged mkdocs.yml, which for this site is
+  # this file, so the line has to be here too. It MUST stay empty.
+  preview_banner: 'This is a staging copy of the PARASOL documentation, published for review before it goes live. Pages here may be unfinished, unreviewed or wrong, and they can change or disappear without notice.'
+
+# The shared nav, page for page, plus the one page only PARASOL shows: From
+# DSMLP to PARASOL, under Reference. Every shared page is where the shared nav
+# puts it, at the same URL, so dsmlp-docs.ucsd.edu can redirect path for path.
+# `nav` is a list, so this REPLACES the shared nav rather than merging with it:
+# a page added to the shared nav must be added here too. The strict build
+# fails on a page missing from it (validation.omitted_files in mkdocs.yml).
+nav:
+  - Overview: overview.md
+  - Guides:
+      - student-in-a-course.md
+      - working-from-the-command-line.md
+      - instructor-or-ta.md
+      - open-learning.md
+      - student-project.md
+      - individual-researcher.md
+      - faculty-research-lab.md
+  - Access:
+      - access/README.md
+      - access/datahub-in-the-browser.md
+      - access/the-login-node.md
+      - access/remote-editor-setup.md
+      - access/when-access-starts-and-ends.md
+      - access/sign-in-and-session-problems.md
+  - Storage:
+      - workspaces-and-storage/README.md
+      - workspaces-and-storage/what-a-workspace-is.md
+      - workspaces-and-storage/your-files-and-quotas.md
+      - workspaces-and-storage/moving-and-sharing-data.md
+      - workspaces-and-storage/datasets.md
+  - Jobs:
+      - running-jobs/README.md
+      - running-jobs/job-modes-and-limits.md
+      - running-jobs/launch-sh-reference.md
+      - running-jobs/watching-your-job.md
+      - running-jobs/checkpointing.md
+      - running-jobs/kubernetes.md
+  - GPUs:
+      - gpu-access/README.md
+      - gpu-access/gpu-classes.md
+      - gpu-access/workloads-by-gpu-class.md
+      - gpu-access/gpu-hardware.md
+      - gpu-access/quotas-and-availability.md
+      - gpu-access/reservations.md
+      - gpu-access/service-units-and-budgets.md
+      - gpu-access/what-ends-a-session.md
+  - Environments:
+      - environments/README.md
+      - environments/standard-images.md
+      - environments/customizing-your-environment.md
+      - environments/building-a-custom-image.md
+  - Grading:
+      - grading/README.md
+      - grading/choosing-a-grading-tool.md
+      - grading/notebook-grading-workflow.md
+      - grading/grading-failures.md
+  - Reference:
+      - reference/README.md
+      - reference/error-messages.md
+      - reference/reservation-events.md
+      - reference/getting-help.md
+      - reference/glossary.md
+      - reference/from-dsmlp-to-parasol.md
+      - reference/coming-from-hpc.md
+      - reference/managing-a-group.md
+      - reference/software.md
+      - reference/policy.md
+  - Home: README.md
