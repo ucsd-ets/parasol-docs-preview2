@@ -1,8 +1,8 @@
 # Reference
 
-The pages in this section apply across PARASOL (formerly DSMLP) and Datahub
-rather than to one task. Look up an error message, a reservation event, or a
-term, or find whom to contact and the rules of use.
+The pages in this section apply across Datahub and PARASOL (formerly DSMLP) rather than to one
+task. Look up an error message, a reservation event, or a term, or find whom to
+contact and the rules of use.
 
 | Page | Covers |
 |---|---|

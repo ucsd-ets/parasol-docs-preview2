@@ -15,7 +15,7 @@ body:
     attributes:
       label: Which page, if any?
       description: Leave blank if the topic has no page at all.
-      placeholder: https://parasol-docs.ucsd.edu/running-jobs/checkpointing/
+      placeholder: https://parasol.ucsd.edu/running-jobs/checkpointing/
     validations:
       required: false
 

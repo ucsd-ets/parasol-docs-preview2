@@ -1,10 +1,10 @@
 # Software
 
-Find out how to run RStudio, MATLAB, and Stata on PARASOL (formerly DSMLP) and
-Datahub, how licensed software gets installed, and which software you can
-install yourself. The standard images cover most courses and projects and
-receive priority support. See [Standard Images, Tags, and
-Pinning](../environments/standard-images.md).
+Find out how to run RStudio, MATLAB, and Stata on Datahub and PARASOL (formerly DSMLP), how
+licensed software gets installed, and which software you can install yourself.
+The standard images cover most courses and projects and receive priority
+support. See
+[Standard Images, Tags, and Pinning](../environments/standard-images.md).
 
 ## R and RStudio
 
@@ -55,7 +55,7 @@ These capabilities are regularly used on the platform but fall outside the
 normal bounds of ITS support, and their use in a course is led by the instructor
 or the Technical Point of Contact (TPOC).
 
-### MATLAB from a Shell Script
+### MATLAB from a Shell Script {#matlab-on-the-research-cluster}
 
 Research IT documents running MATLAB from a small shell script that sets a
 license-file environment variable. The license covers course work and research

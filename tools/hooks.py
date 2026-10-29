@@ -77,17 +77,48 @@ def on_page_content(html: str, page=None, config=None, files=None) -> str:
     html = CAPTION.sub(_caption, html)
     html = GLANCE.sub(_glance, html)
     html = _lead(html, page)
+    hero = (config.get("extra") or {}).get("hero") if config is not None else None
+    if hero and (not hero.get("home_only") or page is not None and (page.is_homepage or not page.url)):
+        html = _drop_title(html)
     html = _mark_figures(html)
-    return _scroll_tables(html, page)
+    return _home_docs_links(_scroll_tables(html, page), page, config)
+
+
+# The "Documentation by Topic" panel points at the standalone documentation
+# site. The host comes from the same override as the top nav, so the two stay
+# in step.
+HOME_DOCS_PANEL = re.compile(
+    r'(<nav class="hub-section hub-link-panel" aria-labelledby="home-docs-heading">)(.*?)(</nav>)',
+    re.S,
+)
+ROOT_RELATIVE_HREF = re.compile(r'href="/([^"#?]+)"')
+
+
+def _home_docs_links(html, page=None, config=None):
+    if page is None or not page.is_homepage:
+        return html
+    extra = (config.get("extra") or {}) if config is not None else {}
+    override = (extra.get("top_nav_overrides") or {}).get("Documentation") or {}
+    base = override.get("url", "").rstrip("/")
+    if not base:
+        return html
+
+    def rewrite_href(match):
+        return f'href="{base}/{match.group(1)}"'
+
+    def rewrite_panel(match):
+        return match.group(1) + ROOT_RELATIVE_HREF.sub(rewrite_href, match.group(2)) + match.group(3)
+
+    return HOME_DOCS_PANEL.sub(rewrite_panel, html)
 
 
 # --------------------------------------------------------------------------
 # Page patterns: steps, command captions, glance boxes
 # --------------------------------------------------------------------------
 #
-# Three components from the documentation review site, written as plain
-# Markdown so a page still reads correctly on GitHub, and turned into the
-# components here.
+# Three components from the review site (internal/operating-procedures.md
+# names it), written as plain Markdown so a page still reads correctly on
+# GitHub, and turned into the components here.
 # AUTHORING.md shows each convention; STYLE.md says when to use it. None of
 # the three matched anything in the corpus when they were introduced.
 #
@@ -197,6 +228,17 @@ def _glance(match: re.Match) -> str:
     return ('<dl class="docs-glance">'
             + "".join(f"<div><dt>{k.strip()}</dt><dd>{v.strip()}</dd></div>" for k, v in rows)
             + "</dl>")
+
+
+# A site that sets extra.hero shows each page's title as the <h1> of
+# theme/partials/hero-banner.html, so the body's own leading <h1> would be a
+# second one. It is dropped here, after _lead has used it to find the framing
+# paragraph. Sites without extra.hero keep it.
+_TITLE = re.compile(r"\A\s*<h1\b[^>]*>.*?</h1>\s*", re.S)
+
+
+def _drop_title(html: str) -> str:
+    return _TITLE.sub("", html, count=1)
 
 
 # --------------------------------------------------------------------------

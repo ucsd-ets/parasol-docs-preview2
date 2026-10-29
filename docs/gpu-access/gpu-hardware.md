@@ -49,9 +49,9 @@ Ada Lovelace cards have fourth-generation tensor cores, which add FP8.
 ### Hopper
 
 Hopper cards have fourth-generation tensor cores and the Transformer Engine,
-which runs FP8. The H100s on PARASOL (formerly DSMLP) are the PCIe variant, with
-HBM2e memory at 2,000 GB/s. The SXM variant has HBM3 at 3,350 GB/s, so a PCIe
-H100 has about 60 percent of an SXM H100's bandwidth.
+which runs FP8. The H100s on PARASOL (formerly DSMLP) are the PCIe variant, with HBM2e memory at
+2,000 GB/s. The SXM variant has HBM3 at 3,350 GB/s, so a PCIe H100 has about 60
+percent of an SXM H100's bandwidth.
 
 | Card or slice | Memory | Bandwidth | Chip | Notes |
 |---|---|---|---|---|

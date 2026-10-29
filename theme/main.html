@@ -3,7 +3,12 @@
 <html class="no-js" lang="en-US">
 
 <head>
-	<title>{% if page.title and not page.is_homepage %}{{ page.title }} | {% endif %}{{ config.site_name }}</title>
+	{#- extra.home_title, where a site sets it, replaces the site name as the
+	    home page's title. Every other page keeps "Page | Site name". The home
+	    page is the one with an empty URL, as for home_template below:
+	    page.is_homepage is false on DSMLP, whose nav lists README.md under
+	    Documentation. #}
+	<title>{% if not page.url and config.extra.home_title %}{{ config.extra.home_title }}{% else %}{% if page.title and page.url %}{{ page.title }} | {% endif %}{{ config.site_name }}{% endif %}</title>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width,initial-scale=1.0">
@@ -33,6 +38,9 @@
 
 	<!-- Site-specific CSS -->
 	<link rel="stylesheet" href="/css/site.css">
+	{%- if config.extra.home_template and not page.url %}
+	<link rel="stylesheet" href="/css/home-dsmlp.css">
+	{%- endif %}
 	{%- for path in config.extra_css %}
 	<link rel="stylesheet" href="/{{ path }}">
 	{%- endfor %}
@@ -52,15 +60,24 @@
 
 	<main class="layout-main" id="main-content" role="main">
 		{%- include "partials/preview-banner.html" %}
+		{%- if config.extra.hero and (not config.extra.hero.home_only or page.is_homepage or not page.url) %}
+		{%- include "partials/hero-banner.html" %}
+		{%- endif %}
+		{%- set home_template = config.extra.home_template if not page.url else '' %}
+		{%- set hub = home_template or (config.extra.hero and page.meta and page.meta.hub) %}
 
 		{% include "partials/breadcrumbs.html" %}
 
-		{% include "partials/site-notice.html" %}
+		{% include "partials/draft-banner.html" %}
 
 		<div class="container">
 			<div class="row">
-				<section class="col-xs-12 col-md-9 main-section pull-right">
+				<section class="{{ 'col-xs-12 main-section landing-hub-content' if hub else 'col-xs-12 col-md-9 main-section pull-right' }}">
+					{%- if home_template %}
+					{%- include home_template %}
+					{%- else %}
 					{{ page.content }}
+					{%- endif %}
 
 					{%- if is_search_page %}
 					{#
@@ -95,8 +112,10 @@
 					{%- endif %}
 
 				</section>
+				{%- if not hub %}
 
 				{% include "partials/sidebar.html" %}
+				{%- endif %}
 			</div>
 		</div>
 	</main>

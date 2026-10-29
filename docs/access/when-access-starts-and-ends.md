@@ -1,11 +1,10 @@
 # When Access Starts & Ends
 
-Access to PARASOL (formerly DSMLP) and Datahub is granted through a workspace
-rather than to an individual, and the date it opens depends on the kind of
-workspace ([What a Workspace Is and What It
-Controls](../workspaces-and-storage/what-a-workspace-is.md)). After a course
-ends, access ends first, the course environment is purged on a later date, and
-instructor and course-wide files are archived only on request.
+Access to Datahub and PARASOL (formerly DSMLP) is granted through a workspace rather than to an
+individual, and the date it opens depends on the kind of workspace
+([What a Workspace Is and What It Controls](../workspaces-and-storage/what-a-workspace-is.md)).
+After a course ends, access ends first, the course environment is purged on a
+later date, and instructor and course-wide files are archived only on request.
 
 ## Students Enrolled in a Course
 
@@ -22,7 +21,7 @@ takes the Active Directory username instead. See
 
 Rosters are loaded into workspaces one business day before the start of the
 term. A TSS change, such as an add, a drop, or a section change, is reflected in
-PARASOL and Datahub by 10am the day following the change. Report anything still
+Datahub and PARASOL by 10am the day following the change. Report anything still
 missing after that time to [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
 
 Waitlisted students are enrolled along with the rest of the roster. The

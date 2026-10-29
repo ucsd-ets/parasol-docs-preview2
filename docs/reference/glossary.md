@@ -1,8 +1,7 @@
 # Glossary
 
-Look up a term used in the PARASOL (formerly DSMLP) and Datahub documentation.
-Entries are in alphabetical order, and each links to the page that covers the
-term in full.
+Look up a term used in the Datahub and PARASOL (formerly DSMLP) documentation. Entries are in
+alphabetical order, and each links to the page that covers the term in full.
 
 ## A-C
 
@@ -124,7 +123,7 @@ term in full.
 
 ## Former Names
 
-<!-- former names: begin -->
+<!-- transform: off -->
 
 **DSMLP**, the Data Science & Machine Learning Platform, is the former name of
 PARASOL. It is still part of hostnames and system output, such as
@@ -135,4 +134,4 @@ Questions about research work go to
 [parasol@ucsd.edu](mailto:parasol@ucsd.edu), and Research IT also answers them
 at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu).
 
-<!-- former names: end -->
+<!-- transform: on -->

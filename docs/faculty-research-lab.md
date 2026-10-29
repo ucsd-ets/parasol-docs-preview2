@@ -1,9 +1,9 @@
 # Setting Up a Research Lab
 
-This page is for faculty arranging PARASOL (formerly DSMLP) and Datahub access
-for a research group. [Research on PARASOL](individual-researcher.md) covers
-researchers working on their own. [Teaching with PARASOL and
-Datahub](instructor-or-ta.md) covers course setup.
+This page is for faculty arranging Datahub and PARASOL (formerly DSMLP) access for a research
+group. [Research on PARASOL](individual-researcher.md) covers researchers working
+on their own. [Teaching with Datahub and PARASOL](instructor-or-ta.md) covers
+course setup.
 
 ## Platform Suitability
 
@@ -320,7 +320,7 @@ availability and reliability.
 
 | Service | Contact |
 |---|---|
-| PARASOL and Datahub, including research work | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
+| Datahub and PARASOL, including research work | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | Research IT, which also answers research questions | [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu), [research-it.ucsd.edu](https://research-it.ucsd.edu/computing/index.html) |
 | IT Service Desk | [support.ucsd.edu](https://support.ucsd.edu/) |
 

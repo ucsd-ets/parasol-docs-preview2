@@ -1,4 +1,4 @@
-# Research on PARASOL
+# Research on PARASOL {#research-on-dsmlp}
 
 This page is for researchers working without a lab workspace: graduate
 students, postdocs, undergraduate researchers, staff researchers, and faculty
@@ -10,9 +10,9 @@ coursework and capstones.
 
 ## What the Platform Is Suited To
 
-Datahub sessions and research work run on the same cluster, PARASOL (formerly
-DSMLP). Older pages and articles may call it the Research Cluster, and the work
-does not change with the name an article uses.
+Datahub sessions and research work run on the same cluster, PARASOL (formerly DSMLP). Older pages
+and articles may call it the Research Cluster, and the work does not change with
+the name an article uses.
 
 ### Suitable Work
 
@@ -29,7 +29,7 @@ compatibility layer rather than a scheduler. See
 [Slurm Compatibility Wrappers](reference/coming-from-hpc.md#slurm-compatibility-wrappers).
 [Coming from HPC](reference/coming-from-hpc.md) covers HPC vocabulary and Slurm
 compatibility. Routing for work that requires
-these features is in [Beyond PARASOL](#beyond-parasol).
+these features is in [Beyond PARASOL](#beyond-dsmlp).
 
 ## Obtaining Access
 
@@ -251,9 +251,9 @@ Some data available on the cluster carries usage terms. See
 ### Data Classification
 
 P4 data, such as clinical records and export-controlled information, must not be
-used on PARASOL. P3 data, which is legally or contractually protected
-information, may be permitted after review. [Data
-Classification](reference/policy.md#data-classification) describes the
+used on PARASOL. P3 data, which is legally or contractually protected information,
+may be permitted after review.
+[Data Classification](reference/policy.md#data-classification) describes the
 classification levels and the review.
 
 ## Publishing & Reproducibility
@@ -279,7 +279,7 @@ Support for research users is routed by subject.
 
 | Subject of the question | Contact |
 |---|---|
-| PARASOL or Datahub: the platform, images, launching, and research work on it | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
+| Datahub or PARASOL: the platform, images, launching, and research work on it | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | Universal Scale Storage, research allocations, or research questions, which Research IT also answers | Research IT, at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | Which platform is appropriate for a given body of work | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
 
@@ -288,7 +288,7 @@ Urgent or broadly scoped problems may be escalated through the
 affected. See [Response Targets](reference/getting-help.md#response-targets).
 [Getting Help](reference/getting-help.md) describes support routing in full.
 
-## Beyond PARASOL
+## Beyond PARASOL {#beyond-dsmlp}
 
 Work requiring tightly coupled multi-node computation, MPI, a batch scheduler, or
 capacity at a scale the cluster does not carry belongs on another platform, such

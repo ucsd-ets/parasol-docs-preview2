@@ -1,7 +1,7 @@
 # Service Units & Budgets
 
-From Fall 2026, GPU time on PARASOL (formerly DSMLP) is metered in Service Units
-(SU), and each workspace member has a budget of them.
+From Fall 2026, GPU time on PARASOL (formerly DSMLP) is metered in Service Units (SU), and each
+workspace member has a budget of them.
 
 | At a glance | |
 |---|---|

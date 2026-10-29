@@ -15,7 +15,7 @@ body:
     attributes:
       label: Which page?
       description: Paste the URL, or the page title if you are not sure.
-      placeholder: https://parasol-docs.ucsd.edu/gpu-access/reservations/
+      placeholder: https://parasol.ucsd.edu/gpu-access/reservations/
     validations:
       required: true
 

@@ -1,8 +1,8 @@
 # Reservations
 
-From Fall 2026, every GPU session on PARASOL (formerly DSMLP) runs under a
-reservation: either a booking made ahead in the reservation app, or an on-demand
-lease that the reservation system creates when a session launches without one.
+From Fall 2026, every GPU session on PARASOL (formerly DSMLP) runs under a reservation: either a
+booking made ahead in the reservation app, or an on-demand lease that the
+reservation system creates when a session launches without one.
 
 ## The Reservation App
 

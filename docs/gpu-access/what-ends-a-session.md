@@ -188,10 +188,7 @@ notifications. Setup instructions for this display in VS Code and other remote
 editors are not yet published. For connecting VS Code itself, see
 [Remote Editor Setup](../access/remote-editor-setup.md).
 
-![The VS Code status bar reading Job protected 55:49, below a notification that
-says GPU resources reserved (medium) until 10:49 AM, from PARASOL Job
-Reservation/Resource Status, with a Details
-button.](../images/vscode-reservation-status.png)
+![The VS Code status bar reading Job protected 55:49, below a notification that says GPU resources reserved (medium) until 10:49 AM, from PARASOL Job Reservation/Resource Status, with a Details button.](../images/vscode-reservation-status.png)
 
 From the command line, `kubectl describe pod` shows the end of the guarantee in
 the pod's annotations; see
@@ -318,7 +315,7 @@ vulnerability requires immediate action. Critical updates occasionally require
 work outside the window. ITS notifies instructors and TAs of such work as far in
 advance as possible.
 
-### Quarterly Maintenance
+### Quarterly Maintenance {#research-cluster-maintenance}
 
 Quarterly maintenance terminates all running jobs, for courses and research
 alike. Jobs are not drained, migrated, or deferred to another node. A multi-day

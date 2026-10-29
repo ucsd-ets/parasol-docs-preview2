@@ -88,12 +88,12 @@ on-demand lease.
 ### `ReservationFull`
 
 Type `Warning`. The pod was waiting for its booking, but when the booking opened
-the owner's other pods held its GPUs. The message names those pods when they are
-in the same namespace. The pod is admitted if a GPU frees up. On PARASOL
-(formerly DSMLP), the reservation system re-checks a waiting pod within about 10
-minutes, and a pod that still does not fit its booking is then given an
-on-demand lease, charged separately. Stop one of the named pods with `kubectl
-delete pod <pod-name>` to free a GPU for the booking.
+the owner's other pods held its GPUs. The message names those pods when they
+are in the same namespace. The pod is admitted if a GPU frees up. On PARASOL (formerly DSMLP), the
+reservation system re-checks a waiting pod within about 10 minutes, and a pod
+that still does not fit its booking is then given an on-demand lease, charged
+separately. Stop one of the named pods with `kubectl delete pod <pod-name>` to
+free a GPU for the booking.
 
 An account can hold 1 GPU at a time by default, across all its pods, and a
 launch that would take it past that is refused. This event therefore arises
@@ -104,10 +104,9 @@ only where ITS has raised the account's GPU limit. See
 
 Type `Warning`. The pod requests more GPUs than its booking holds, so the
 booking can never admit it. Two bookings are never combined for one pod. On
-PARASOL this event is not expected: a pod that asks for more GPUs than its
-booking holds is given an on-demand lease, charged separately, instead of
-waiting. See [Claiming a
-Booking](../gpu-access/reservations.md#claiming-a-booking).
+PARASOL this event is not expected: a pod that asks for more GPUs than its booking
+holds is given an on-demand lease, charged separately, instead of waiting. See
+[Claiming a Booking](../gpu-access/reservations.md#claiming-a-booking).
 
 ### `OnDemandLeaseDenied`
 
@@ -206,10 +205,10 @@ This pod's gpu-class label is Medium, which is not a GPU class the reservation s
 Type `Warning`. No booking matches the pod, and the pod does not qualify for an
 on-demand lease. The message lists why, and names any booking the user holds for
 another class or another workspace. Correct the pod and recreate it, or book a
-window for the class. See [Claiming a
-Booking](../gpu-access/reservations.md#claiming-a-booking). On PARASOL, where
-every pod with a class label qualifies for an on-demand lease, this event is not
-expected.
+window for the class. See
+[Claiming a Booking](../gpu-access/reservations.md#claiming-a-booking). On
+PARASOL, where every pod with a class label qualifies for an on-demand lease, this
+event is not expected.
 
 ### `NoGpuRequest`
 
@@ -228,10 +227,10 @@ This pod has the gpu-class label medium but requests no GPUs: no container sets 
 ### `AnnotationIgnored`
 
 Type `Warning`. An annotation on the pod was invalid or asked for something
-PARASOL does not offer, and ignoring it changed what happens. The common case is
-a request for best-effort admission, which is not enabled on PARASOL: the pod is
-admitted on an ordinary on-demand lease and charged for it. See [Best-Effort
-Reservations](../gpu-access/reservations.md#best-effort-reservations).
+PARASOL does not offer, and ignoring it changed what happens. The common case is a
+request for best-effort admission, which is not enabled on PARASOL: the pod is
+admitted on an ordinary on-demand lease and charged for it. See
+[Best-Effort Reservations](../gpu-access/reservations.md#best-effort-reservations).
 
 ### `NoMatchingNode`
 

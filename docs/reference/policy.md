@@ -1,8 +1,8 @@
 # Policy
 
-Check the conditions for using PARASOL (formerly DSMLP) and Datahub before you
-put data on the platform, host a service that people outside it can reach, or
-set a deadline that could fall in a maintenance window.
+Check the conditions for using Datahub and PARASOL (formerly DSMLP) before you put data on the
+platform, host a service that people outside it can reach, or set a deadline
+that could fall in a maintenance window.
 
 ## Data Classification
 
@@ -14,8 +14,8 @@ dataset.
 ### P4 Data
 
 P4 data is prohibited. Highly sensitive information, such as clinical records or
-export-controlled material, must not be placed on PARASOL or Datahub. There is
-no review path and no exception.
+export-controlled material, must not be placed on Datahub or PARASOL. There is no
+review path and no exception.
 
 ### P3 Data
 
@@ -49,11 +49,12 @@ See
 
 ### IT Acceptable Use Policy
 
-The campus-wide [IT Acceptable Use
-Policy](https://adminrecords.ucsd.edu/ppm/docs/135-9.html) applies to PARASOL
-and Datahub as it does to any campus IT resource, including its prohibitions on
-commercial or political activity, hacking or cyberstalking, and other types of
-unwelcome behavior. The platform's academic purpose does not relax it.
+The campus-wide
+[IT Acceptable Use Policy](https://adminrecords.ucsd.edu/ppm/docs/135-9.html)
+applies to Datahub and PARASOL as it does to any campus IT resource, including its
+prohibitions on commercial or political activity, hacking or cyberstalking, and
+other types of unwelcome behavior. The platform's academic purpose does not
+relax it.
 
 ### Individual Access and Sharing
 
@@ -65,7 +66,7 @@ areas are the sanctioned route for sharing. See
 
 ## Hosting Externally Available Services
 
-PARASOL and Datahub should not be used to host externally available services or
+Datahub and PARASOL should not be used to host externally available services or
 applications, except as required for coursework or projects. A class demo, a
 project web application, or a service an assignment requires is in scope. A
 production service, a persistent public endpoint, or anything whose outage
@@ -146,7 +147,7 @@ shifted to a daytime or off-peak hour costs less. See
 ## Self-Supporting Programs
 
 [Self-supporting programs](https://blink.ucsd.edu/instructors/academic-info/majors/selfsupport-codes.html)
-such as MAS and MBA may use PARASOL and Datahub for coursework or projects.
+such as MAS and MBA may use Datahub and PARASOL for coursework or projects.
 [UC policy](https://www.ucop.edu/institutional-research-academic-planning/content-analysis/academic-planning/self-supporting-programs.html)
 requires ITS to recover the associated direct and indirect costs. To discuss
 cost recovery, email [parasol@ucsd.edu](mailto:parasol@ucsd.edu).
@@ -167,7 +168,7 @@ Do not plan a deadline within this window. Infrequent 'Critical' updates may
 require downtime outside the window; ITS notifies instructors of such downtime
 as soon as is practical.
 
-### Quarterly Maintenance
+### Quarterly Maintenance {#research-cluster-maintenance}
 
 The quarterly maintenance window falls at the break between terms, with about
 7 days' notice. All running jobs are terminated, for courses and research alike.

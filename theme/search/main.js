@@ -1,4 +1,4 @@
-/* Search UI for parasol-docs.
+/* Search UI for dsmlp-docs.
  *
  * A corrected copy of mkdocs/contrib/search/templates/search/main.js. A file
  * of this name in the theme overrides the plugin's own, which is why this

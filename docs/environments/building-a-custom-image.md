@@ -195,7 +195,7 @@ FROM ghcr.io/ucsd-ets/datascience-notebook:2024.4-stable
    Create a `dev` or `test` branch and commit to it. The build publishes the
    branch's tag, such as `{image}:test`.
 2. **Test the branch image**
-   See [Testing a Custom Image on PARASOL](#testing-a-custom-image-on-parasol).
+   See [Testing a Custom Image on PARASOL](#testing-a-custom-image-on-dsmlp).
 3. **Open a pull request**
    When the image works, open a pull request into the branch the course uses.
 4. **Have it reviewed**
@@ -217,7 +217,7 @@ support this work through 1:1 Consultation rather than by building the image.
 See
 [Support & Technical Consultation](../instructor-or-ta.md#support--technical-consultation).
 
-## Testing a Custom Image on PARASOL
+## Testing a Custom Image on PARASOL {#testing-a-custom-image-on-dsmlp}
 
 From the login node, launch the custom image into the course workspace:
 

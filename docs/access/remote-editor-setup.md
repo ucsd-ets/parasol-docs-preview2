@@ -242,7 +242,7 @@ skipped.
       HostKeyAlias MYCOURSE
       IdentitiesOnly yes
       IdentityFile ~/.ssh/id_ed25519
-      ProxyCommand ssh -i ~/.ssh/id_ed25519 USERNAME@dsmlp-login.ucsd.edu /opt/launch-sh/bin/launch.sh -W MYCOURSE -H -N vscode-parasol
+      ProxyCommand ssh -i ~/.ssh/id_ed25519 USERNAME@dsmlp-login.ucsd.edu /opt/launch-sh/bin/launch.sh -W MYCOURSE -H -N vscode-dsmlp
     ```
 
 | Part | What it does |
@@ -253,7 +253,7 @@ skipped.
 | `/opt/launch-sh/bin/launch.sh` | The same launcher run by hand, called by absolute path |
 | `-W MYCOURSE` | The course workspace, so the course files are there |
 | `-H` | Connects to the SSH server inside the container — this is what VS Code attaches to |
-| `-N vscode-parasol` | The pod's name. It must match the name used at launch |
+| `-N vscode-dsmlp` | The pod's name. It must match the name used at launch |
 
 The entry is written once. Size, image, and GPU are not set in it. They are set
 at each launch, and the entry attaches to whatever pod carries the name. See
@@ -276,14 +276,14 @@ Each session begins on the login node:
 *Start of every session: connect, then launch the pod*
 ```bash
 ssh <username>@dsmlp-login.ucsd.edu
-launch-scipy-ml.sh -W MYCOURSE -H -N vscode-parasol -b
+launch-scipy-ml.sh -W MYCOURSE -H -N vscode-dsmlp -b
 ```
 
 | Flag | What it does |
 |---|---|
 | `-W MYCOURSE` | The same workspace as the `Host` entry |
 | `-H` | Starts an SSH server inside the container |
-| `-N vscode-parasol` | Names the pod. The `Host` entry finds it by this name |
+| `-N vscode-dsmlp` | Names the pod. The `Host` entry finds it by this name |
 | `-b` | Returns the prompt once the pod is scheduled; the pod keeps running |
 
 The launcher reports the pod's progress and the node it lands on, then returns.
@@ -297,10 +297,10 @@ GPU class the workspace has been granted, adds a GPU:
 *Launch lines with more resources*
 ```bash
 # more CPU and memory
-launch-scipy-ml.sh -W MYCOURSE -H -N vscode-parasol -b -c 4 -m 8
+launch-scipy-ml.sh -W MYCOURSE -H -N vscode-dsmlp -b -c 4 -m 8
 
 # a GPU
-launch-scipy-ml.sh -W MYCOURSE -H -N vscode-parasol -b -g 1 -l gpu-class=medium
+launch-scipy-ml.sh -W MYCOURSE -H -N vscode-dsmlp -b -g 1 -l gpu-class=medium
 ```
 
 A connection that drops within a minute of starting a memory-intensive process
@@ -335,7 +335,7 @@ exporting `K8S_TIMEOUT_SECONDS` before the launch:
 *Launch with a 12-hour limit*
 ```bash
 export K8S_TIMEOUT_SECONDS=$(( 3600 * 12 ))
-launch-scipy-ml.sh -W MYCOURSE -H -N vscode-parasol -b
+launch-scipy-ml.sh -W MYCOURSE -H -N vscode-dsmlp -b
 ```
 
 ### Reconnecting After Expiry
@@ -361,10 +361,10 @@ warning rather than as a configuration error.
 ### Pod Name Scope
 
 The pod name is chosen at launch and is scoped to the account, not to the
-course. Two entries that both specify `-N vscode-parasol` attach to whichever
-pod is running under that name, whatever workspace it was launched in. Give
-each course a distinct pod name made of lowercase letters, digits, and hyphens,
-and use the same name in the entry and on the launch line.
+course. Two entries that both specify `-N vscode-dsmlp` attach to whichever pod
+is running under that name, whatever workspace it was launched in. Give each
+course a distinct pod name made of lowercase letters, digits, and hyphens, and
+use the same name in the entry and on the launch line.
 
 With a distinct name per course, editor sessions for several courses can run at
 the same time. Together they must fit the namespace's total CPU, memory, and GPU
@@ -384,7 +384,7 @@ End every session by deleting the pod from the login node:
 ```bash
 ssh <username>@dsmlp-login.ucsd.edu
 kubectl get pods
-kubectl delete pod vscode-parasol
+kubectl delete pod vscode-dsmlp
 ```
 
 Idle culling does not replace this step. It applies only to GPU pods, and an
@@ -395,7 +395,7 @@ or until it is deleted.
 describes the idle conditions.
 
 The running container can also be entered from the login node with
-`kubesh vscode-parasol`, without opening the editor.
+`kubesh vscode-dsmlp`, without opening the editor.
 
 ### Growth of `.vscode-server`
 
@@ -412,7 +412,7 @@ To reclaim the space:
 1. **Close VS Code**
    Close every VS Code window connected to the container.
 2. **Enter the container**
-   Enter it with `kubesh vscode-parasol`.
+   Enter it with `kubesh vscode-dsmlp`.
 3. **Delete the directory**
 
     ```bash

@@ -1,9 +1,9 @@
 # Getting Help
 
-Find out whom to contact about PARASOL (formerly DSMLP) or Datahub, what to
-include in a ticket, and how to ask for a change you cannot make yourself, such
-as more disk space or a larger GPU class. If you are a student in a course,
-start with your instructor or TA.
+Find out whom to contact about Datahub or PARASOL (formerly DSMLP), what to include in a ticket,
+and how to ask for a change you cannot make yourself, such as more disk space
+or a larger GPU class. If you are a student in a course, start with your
+instructor or TA.
 
 ## Support Tiers
 
@@ -26,7 +26,7 @@ instructor tier for that work and use the contacts in
 | Question | Contact |
 |---|---|
 | A course a student is enrolled in | The instructor or TA, first |
-| PARASOL or Datahub itself: access, images, launching, quotas, GPUs, and research work | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
+| Datahub or PARASOL itself: access, images, launching, quotas, GPUs, and research work | [parasol@ucsd.edu](mailto:parasol@ucsd.edu) |
 | Universal Scale Storage, or research work, which Research IT also answers | Research IT, at [rcd-support@ucsd.edu](mailto:rcd-support@ucsd.edu) |
 | An outage, or anything to be tracked as a ticket | The [ITS Service Desk](https://support.ucsd.edu/) |
 | Which platform is appropriate for a research project | [Research IT](https://research-it.ucsd.edu/computing/index.html) |
@@ -42,10 +42,10 @@ web form is better suited to screenshots and long pastes.
 ### Platform Selection
 
 Research IT is the first contact for the question of whether a research project
-belongs on PARASOL. Research IT can compare a project against the other
-platforms the campus runs, including capabilities PARASOL does not have, such as
-a full batch scheduler, MPI, and multi-node work, and against the platforms a
-PI's group already uses. Highly resource-intensive work may suit San Diego
+belongs on PARASOL. Research IT can compare a project against the other platforms
+the campus runs, including capabilities PARASOL does not have, such as a full
+batch scheduler, MPI, and multi-node work, and against the platforms a PI's
+group already uses. Highly resource-intensive work may suit San Diego
 Supercomputer Center (SDSC) systems such as the Triton Shared Computing Cluster
 (TSCC).
 
